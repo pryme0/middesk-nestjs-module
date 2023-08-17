@@ -1,0 +1,1 @@
+# Mindesk-nestjs-module
