@@ -1,0 +1,16 @@
+export const BUSINESS_CREATED = 'business.created';
+export const BUSINESS_Updated = 'business.updated';
+export const TIN_RETIRED = 'tin.retried';
+export const TIN_RETRIEVED = 'tin.retrieved';
+export const ADDRESS_CREATED = 'address.created';
+export const ADDRESS_DELETED = 'address.deleted';
+export const NAME_CREATED = 'name.created';
+export const NAME_DELETED = 'name.deleted';
+export const PERSON_CREATED = 'person.created';
+export const REGISTRATION_CREATED = 'registration.created';
+export const REGISTRATION_DELETED = 'registration.deleted';
+export const SUBSCRIPTION_CREATED = 'subscription.created';
+export const SUBSCRIPTION_UPDATED = 'subscription.updated';
+export const WATCHLIST_RESULT_CREATED = 'watchlist_result.created';
+export const BANKRUPTCY_CREATED = 'bankruptcy.created';
+export const LIEN_UPDATED = 'lien.updated';

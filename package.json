@@ -1,0 +1,55 @@
+{
+  "name": "@prymejo/middesk-nestjs-module",
+  "version": "1.0.0",
+  "description": "<p align=\"center\">   <a href=\"https://get.middesk.com\" target=\"blank\"><img src=\"https://d9hhrg4mnvzow.cloudfront.net/get.middesk.com/verification/c8d95e3b-group-1000004533.svg\" width=\"200\" alt=\"Nest Logo\" /></a> </p>",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "build": "rimraf dist && tsc",
+    "prepublish": "yarn run  build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pryme0/Middesk-nestjs-module.git"
+  },
+  "keywords": [
+    "Middesk",
+    "Kyb",
+    "Kyc",
+    "Compliance",
+    "Tax-registration",
+    "Identity",
+    "Identity verification",
+    "Tin Verification",
+    "Ein Verification",
+    "Website Verification",
+    "Address Verification",
+    "WatchList",
+    "AML"
+  ],
+  "author": "Joseph Obochi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pryme0/Middesk-nestjs-module/issues"
+  },
+  "homepage": "https://github.com/pryme0/Middesk-nestjs-module#readme",
+  "dependencies": {
+    "@nestjs/axios": "^3.0.0",
+    "@nestjs/common": "^10.1.3",
+    "axios": "^1.3.1",
+    "reflect-metadata": "^0.1.12",
+    "rxjs": "^7.1.0"
+  },
+  "devDependencies": {
+    "@nestjs/core": "^10.1.3",
+    "@nestjs/platform-express": "^10.1.3",
+    "@types/node": "^20.5.0",
+    "source-map-support": "^0.5.21",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.1.6"
+  }
+}

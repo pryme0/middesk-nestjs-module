@@ -1,0 +1,16 @@
+export declare const BUSINESS_CREATED = "business.created";
+export declare const BUSINESS_Updated = "business.updated";
+export declare const TIN_RETIRED = "tin.retried";
+export declare const TIN_RETRIEVED = "tin.retrieved";
+export declare const ADDRESS_CREATED = "address.created";
+export declare const ADDRESS_DELETED = "address.deleted";
+export declare const NAME_CREATED = "name.created";
+export declare const NAME_DELETED = "name.deleted";
+export declare const PERSON_CREATED = "person.created";
+export declare const REGISTRATION_CREATED = "registration.created";
+export declare const REGISTRATION_DELETED = "registration.deleted";
+export declare const SUBSCRIPTION_CREATED = "subscription.created";
+export declare const SUBSCRIPTION_UPDATED = "subscription.updated";
+export declare const WATCHLIST_RESULT_CREATED = "watchlist_result.created";
+export declare const BANKRUPTCY_CREATED = "bankruptcy.created";
+export declare const LIEN_UPDATED = "lien.updated";

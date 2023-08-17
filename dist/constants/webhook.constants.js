@@ -1,0 +1,20 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.LIEN_UPDATED = exports.BANKRUPTCY_CREATED = exports.WATCHLIST_RESULT_CREATED = exports.SUBSCRIPTION_UPDATED = exports.SUBSCRIPTION_CREATED = exports.REGISTRATION_DELETED = exports.REGISTRATION_CREATED = exports.PERSON_CREATED = exports.NAME_DELETED = exports.NAME_CREATED = exports.ADDRESS_DELETED = exports.ADDRESS_CREATED = exports.TIN_RETRIEVED = exports.TIN_RETIRED = exports.BUSINESS_Updated = exports.BUSINESS_CREATED = void 0;
+exports.BUSINESS_CREATED = 'business.created';
+exports.BUSINESS_Updated = 'business.updated';
+exports.TIN_RETIRED = 'tin.retried';
+exports.TIN_RETRIEVED = 'tin.retrieved';
+exports.ADDRESS_CREATED = 'address.created';
+exports.ADDRESS_DELETED = 'address.deleted';
+exports.NAME_CREATED = 'name.created';
+exports.NAME_DELETED = 'name.deleted';
+exports.PERSON_CREATED = 'person.created';
+exports.REGISTRATION_CREATED = 'registration.created';
+exports.REGISTRATION_DELETED = 'registration.deleted';
+exports.SUBSCRIPTION_CREATED = 'subscription.created';
+exports.SUBSCRIPTION_UPDATED = 'subscription.updated';
+exports.WATCHLIST_RESULT_CREATED = 'watchlist_result.created';
+exports.BANKRUPTCY_CREATED = 'bankruptcy.created';
+exports.LIEN_UPDATED = 'lien.updated';
+//# sourceMappingURL=webhook.constants.js.map
